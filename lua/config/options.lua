@@ -6,3 +6,4 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.winbar = "%=%m %f"
 vim.g.lazyvim_python_lsp = "pyright"
 vim.g.lazyvim_python_ruff = "ruff_lsp"
+vim.o.termguicolors = true
