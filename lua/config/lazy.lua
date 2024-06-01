@@ -46,4 +46,4 @@ require("lazy").setup({
     },
   },
 })
-vim.cmd("colorscheme solarized-osaka")
+-- vim.cmd("colorscheme solarized-osaka")
