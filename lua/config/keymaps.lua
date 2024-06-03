@@ -17,3 +17,9 @@ vim.api.nvim_set_keymap("n", "<A-Left>", "<C-w><", { noremap = true })
 vim.api.nvim_set_keymap("n", "<A-Right>", "<C-w>>", { noremap = true })
 vim.api.nvim_set_keymap("n", "<A-Up>", "<C-w>+", { noremap = true })
 vim.api.nvim_set_keymap("n", "<A-Down>", "<C-w>-", { noremap = true })
+
+-- Tmux Navigator
+vim.api.nvim_set_keymap("n", "<C-h>", "<cmd>TmuxNavigateLeft<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-j>", "<cmd>TmuxNavigateDown<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-k>", "<cmd>TmuxNavigateUp<cr>", { noremap = true, silent = true })
+vim.api.nvim_set_keymap("n", "<C-l>", "<cmd>TmuxNavigateRight<cr>", { noremap = true, silent = true })
